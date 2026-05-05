@@ -7,12 +7,13 @@ X-WR-CALNAME:Hermes Managed Calendar
 X-WR-TIMEZONE:America/Chicago
 
 BEGIN:VEVENT
-UID:sample-001@hermes-calendar-feed
-DTSTAMP:20260505T030000Z
-DTSTART:20260506T150000Z
-DTEND:20260506T153000Z
-SUMMARY:Test Event (Hermes Feed)
-DESCRIPTION:If you can see this in Google Calendar, subscription works.
+UID:bjj-class-tue-fri-1200-1330@hermes-calendar-feed
+DTSTAMP:20260505T040000Z
+SUMMARY:BJJ Class
+DESCRIPTION:Recurring BJJ class
+DTSTART;TZID=America/Chicago:20260506T120000
+DTEND;TZID=America/Chicago:20260506T133000
+RRULE:FREQ=WEEKLY;BYDAY=TU,WE,TH,FR
 END:VEVENT
 
 END:VCALENDAR
